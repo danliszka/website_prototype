@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+}
+
+#banner{
+    background-color: #152350;
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;
+}
+
+
+#pitt-icon-wrapper{
+    text-align: right;
+    width: 10%;
+}
+
+#pitt-icon{
+    height: 60px;
+    width: 60px;
+    padding:0.25em;
+}
+
+
+#pitt-name-wrapper{
+    font-size: 20px;
+    width: 20%;
+    min-width: 200px;
+}
+
+#pitt-name{
+    color: #cfba7d; 
+    font-family: Times New Roman;
+}
+
+
+#af-icon-wrapper{
+    text-align: center;
+    min-width: 200px;
+    width: 40%
+}
+
+#af-icon{
+    height: 55px;
+    width: 60px;
+    padding: 0.25em;
+}
+
+
+#rotc-title-wrapper{
+    text-align: right;
+    width: 30%;
+}
+
+#rotc-title{
+    font-family: Times New Roman;
+    font-size: 25px;
+    color: #cfba7d;
+    padding-right: 50px;
+}
+
+.nav-buttons{
+    transition: height 1s, line-height 1s;
+    color: #152350;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border-left: 1px solid #cfba7d;
+    height: 20px;
+    line-height: 8px;
+}
+
+.nav-buttons-scrolling{
+    transition: height 1s, line-height 1s;
+    color: white;
+    height: 30px;
+    line-height: 15px;
+    border-left: 1px solid #cfba7d;
+}
+
+.nav-adjustments{
+    transition: 1s;
+    border-bottom: 3px solid #cfba7d;
+    border-top: 3px solid #cfba7d;
+    padding: 5px;
+    background-color: white;
+}
+
+.nav-scrolling{
+    transition: 1s;
+    border-top: none;
+    background-color: #152350;
+}
+
+#welcome-message{
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    background-color: #152350;
+}
+
+#load-image{
+    border: 2px solid #cfba7d;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
