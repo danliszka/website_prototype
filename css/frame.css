@@ -6,12 +6,18 @@
 }
 
 #pitt-icon{
-    padding-left: 7em;
-    width: 200px;
+    padding-left: 5em;
+    width: 160px;
 }
 
 #pitt-name{
     vertical-align: bottom;
-    padding-bottom: 1px;
-    font-size: 19px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.nav-buttons{
+    color: #152350;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
