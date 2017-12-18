@@ -1,15 +1,15 @@
 $(document).ready(function() {
   
   $(window).scroll(function () {
-      //if you hard code, then use console
-      //.log to determine when you want the 
-      //nav bar to stick.  
-      //console.log($(window).scrollTop())
     if ($(window).scrollTop() > 62) {
-      $('nav').addClass('fixed-top');
+        $('nav').addClass('fixed-top');
+        $('nav').addClass('nav-scrolling');
+        $('.nav-buttons').addClass('nav-buttons-scrolling');
     }
     if ($(window).scrollTop() < 62) {
-      $('nav').removeClass('fixed-top');
+        $('.nav-buttons').removeClass('nav-buttons-scrolling');
+        $('nav').removeClass('nav-scrolling');
+        $('nav').removeClass('fixed-top');
     }
   });
 });

@@ -56,6 +56,7 @@
 }
 
 .nav-buttons{
+    transition: height 1s, line-height 1s;
     color: #152350;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -64,11 +65,23 @@
     line-height: 8px;
 }
 
-.nav-adjustments{
+.nav-buttons-scrolling{
+    transition: height 1s, line-height 1s;
+    color: white;
+    height: 30px;
+    line-height: 15px;
+}
 
+.nav-adjustments{
+    transition: 1s;
     margin-bottom: 10px;
     border-bottom: 2px solid #cfba7d;
     padding: 5px;
-    
+    background-color: white;
+}
+
+.nav-scrolling{
+    transition: 1s;
+    background-color: #152350;
 }
 
