@@ -3,21 +3,72 @@
     background-color: #152350;
     width: 100%;
     height: 50px;
+    white-space: nowrap;
+}
+
+
+#pitt-icon-wrapper{
+    text-align: left;
+    padding-left: 60px;
+    width: 10%;
 }
 
 #pitt-icon{
-    padding-left: 5em;
-    width: 160px;
+    height: 60px;
+    width: 60px;
+    padding:0.25em;
+}
+
+
+#pitt-name-wrapper{
+    font-size: 20px;
+    width: 20%;
+    min-width: 200px;
 }
 
 #pitt-name{
-    vertical-align: bottom;
-    font-size: 20px;
-    width: 20%;
+    color: #cfba7d; 
+    font-family: Times New Roman;
+}
+
+
+#af-icon-wrapper{
+    text-align: center;
+}
+
+#af-icon{
+    height: 55px;
+    width: 60px;
+    padding: 0.25em;
+}
+
+
+#rotc-title-wrapper{
+    text-align: right;
+    width: 30%;
+}
+
+#rotc-title{
+    font-family: Times New Roman;
+    font-size: 25px;
+    color: #cfba7d;
+    padding-right: 50px;
 }
 
 .nav-buttons{
     color: #152350;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    border-left: 1px solid #eee;
+    height: 20px;
+    line-height: 8px;
 }
+
+.nav-adjustments{
+
+    margin-bottom: 10px;
+    border-bottom: 2px solid #cfba7d;
+    padding: 5px;
+    
+}
+
