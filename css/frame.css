@@ -1,4 +1,3 @@
-
 #banner{
     background-color: #152350;
     width: 100%;
@@ -34,6 +33,7 @@
 
 #af-icon-wrapper{
     text-align: center;
+    min-width: 200px;
 }
 
 #af-icon{
