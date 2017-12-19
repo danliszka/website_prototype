@@ -1,19 +1,19 @@
 # website_prototype
-Development of Detachment 730's new website
+<h1>Development of Detachment 730's new website</h1>
 
-Dependencies: 
-  Open source libraries:
-    - local copy of jquery-3.2.1 -> slim minified js file
-    - local copy of Bootstrap v4.0.0-beta.2 -> minified js and css files
-    - internet linked popper 1.12.3 -> minified js file
-  Created files:
-    - pageDynamics.js
-    - index.html
-    - frame_style.css
+<h2>Dependencies:</h2><br /> 
+  <h3>Open source libraries:</h3><br />
+    - local copy of jquery-3.2.1 -> slim minified js file<br />
+    - local copy of Bootstrap v4.0.0-beta.2 -> minified js and css files<br />
+    - internet linked popper 1.12.3 -> minified js file<br />
+  <h3>Created files:</h3><br />
+    - pageDynamics.js<br />
+    - index.html<br />
+    - frame_style.css<br />
     
 
-Developers: Isabel Murdock, Stephen Racz, Daniel Liszka
+<h2>Developers: Isabel Murdock, Stephen Racz, Daniel Liszka</h2>
 
 
-Timeline: 
+<h2>Timeline: </h2>
 
