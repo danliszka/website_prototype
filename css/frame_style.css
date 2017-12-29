@@ -141,6 +141,8 @@ body{
     color:white;
     background-color: #152350;
     margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .info-basic-message{
