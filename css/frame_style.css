@@ -98,6 +98,7 @@ body{
 /************************ End Frame CSS ******************/
 
 /********************* Start Content CSS *****************/
+/**********Only for main page "Welcome to Det 730"************/
 #welcome-message{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
@@ -107,6 +108,8 @@ body{
     background-color: #152350;
 }
 
+/**********Top message for all sub pages****************/
+/** Under top picture, blue background, white, large words, gold border**/
 #top-message{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
@@ -132,6 +135,7 @@ body{
     margin-bottom: 5px;
 }
 
+/**blue background, white words, gold border, large margins on left and right**/
 .info-message{
     border: 2px solid #ceb87b;
     text-align: center;
@@ -145,6 +149,22 @@ body{
     padding-right: 100px;
 }
 
+/**blue background, white words, gold border, small margins**/
+.info-message-sm{
+    border: 2px solid #ceb87b;
+    text-align: center;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size:30px;
+    padding: 10px;
+    color:white;
+    background-color: #152350;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/**white background, blue words, no border, small margins**/
 .info-basic-message{
     text-align: center;
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
@@ -152,9 +172,11 @@ body{
     padding: 10px;
     color:#152350;
     background-color: white;
-    margin-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+/**blue background, gold words, gold border, small margins**/
 .info-main{
     border: 2px solid #ceb87b;
     text-align: left;
@@ -167,12 +189,24 @@ body{
     padding-right: 25px;
 }
 
+/**blue background, gold words, no border, small margins**/
 .info-basic-main{
     text-align: left;
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     padding: 10px;
     color: #ceb87b;
     background-color: #152350;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.info-basic-main-white{
+    text-align: left;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    color: white;
+    background-color: #ceb87b;
     margin-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
