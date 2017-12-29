@@ -177,3 +177,28 @@ body{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+/********************* Start Contact Us CSS *****************/
+
+#contact-us-top-message{
+    padding-top: 15px;
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.table-data-wrapper{
+    padding: 15px;
+    text-align: center;
+}
+
+#contact-options{
+    width: 100%;
+}
+
+#map{
+    height: 250px;
+    width: 250px;
+}
+
+/********************* End Contact Us CSS *****************/
