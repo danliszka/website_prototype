@@ -2,6 +2,8 @@ body{
     background-color: white;
 }
 
+/******************* Start Frame CSS ********************/
+
 #banner{
     background-color: #152350;
     width: 100%;
@@ -92,6 +94,10 @@ body{
     background-color: #152350;
 }
 
+
+/************************ End Frame CSS ******************/
+
+/********************* Start Content CSS *****************/
 #welcome-message{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
@@ -101,6 +107,17 @@ body{
     background-color: #152350;
 }
 
+#top-message{
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    color: white;
+    background-color: #152350;
+    margin-bottom: 10px;
+    border: 2px solid #ceb87b;
+}
+
 #load-image{
     border: 2px solid #ceb87b;
     width: 100%;
@@ -108,6 +125,12 @@ body{
     margin-bottom: 20px;
 }
 
+#load-fixedS-image{
+    border: 2px solid #ceb87b;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
 
 .info-message{
     border: 2px solid #ceb87b;
@@ -118,6 +141,16 @@ body{
     color:white;
     background-color: #152350;
     margin-bottom: 20px;
+}
+
+.info-basic-message{
+    text-align: center;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size:24px;
+    padding: 10px;
+    color:#152350;
+    background-color: white;
+    margin-bottom: 0px;
 }
 
 .info-main{
@@ -132,3 +165,13 @@ body{
     padding-right: 25px;
 }
 
+.info-basic-main{
+    text-align: left;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    color: #ceb87b;
+    background-color: #152350;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
