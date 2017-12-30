@@ -190,15 +190,28 @@ body{
 .table-data-wrapper{
     padding: 15px;
     text-align: center;
+    vertical-align: top;
 }
 
 #contact-options{
+    margin-top:50px;
     width: 100%;
 }
 
-#map{
+.contact-types{
+    border: 2px solid lightgrey;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
     height: 250px;
-    width: 250px;
+    text-align: left;
+}
+
+#map{
+    border: 2px solid lightgrey;
+    height: 250px;
+    width: 100%;
 }
 
 /********************* End Contact Us CSS *****************/
