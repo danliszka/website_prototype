@@ -180,39 +180,33 @@ body{
 
 /********************* Start Contact Us CSS *****************/
 
-#contact-us-top-message{
-    padding-top: 15px;
+.message{
+    margin: 15px;
+    padding: 10px;
     text-align: center;
+    vertical-align: middle;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    font-size: 30px;
+    color: #ceb87b;
 }
 
 .contact-types{
     padding: 15px;
-    margin: 30px;
-    border: 3px solid #ceb87b;
-    text-align: left;
-}
-
-#cathy-img-wrapper{
-    padding:0;
-    margin:30px;
-}
-
-#cathy-img{
-    border: 3px solid #ceb87b;
-    width:100%;
+    padding-bottom: 0;
+    margin: 15px;
+    background-color: #ceb87b;
+    text-align: center;
+    border-radius: 6px;
 }
 
 #map-wrapper{
-    display: flex;
-    justify-content: center;
+    margin: 15px;
+    padding: 0;
 }
 
 #map{
-    border: 3px solid #ceb87b;
-    height: 300px;
-    width: 600px;
+    height: 250px;
+    width: 100%;
+    border-radius: 6px;
 }
 
 /********************* End Contact Us CSS *****************/
