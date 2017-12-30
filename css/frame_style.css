@@ -194,6 +194,16 @@ body{
     text-align: left;
 }
 
+#cathy-img-wrapper{
+    padding:0;
+    margin:30px;
+}
+
+#cathy-img{
+    border: 3px solid #ceb87b;
+    width:100%;
+}
+
 #map-wrapper{
     display: flex;
     justify-content: center;
