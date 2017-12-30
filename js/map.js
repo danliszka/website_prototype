@@ -14,37 +14,37 @@ function initMap() {
     var parkingIcon = iconBase + 'parking_lot_maps.png';
     var markers = [
         {
-            position: {lat: 40.4442567, lng: -79.9554277},
+            position: {lat: 40.4437522, lng: -79.9539867},
             icon: parkingIcon,
             map: map
         },
         
         {
-            position: {lat: 40.4442812, lng: -79.9625624},
+            position: {lat: 40.4401225, lng: -79.9581734},
             icon: parkingIcon,
             map: map
         },
         
         {
-            position: {lat: 40.4447547, lng: -79.9632275},
+            position: {lat: 40.4450575, lng: -79.9640718},
             icon: parkingIcon,
             map: map
         },
         
         {
-            position: {lat: 40.4402688, lng: -79.9589307},
+            position: {lat: 40.4468472, lng: -79.9653321},
             icon: parkingIcon,
             map: map
         },
         
         {
-            position: {lat: 40.4431556, lng: -79.9553481},
+            position: {lat: 40.4443704, lng: -79.9556305},
             icon: parkingIcon,
             map: map
         },
         
         {
-            position: {lat: 40.4453594, lng: -79.9533105},
+            position: {lat: 40.4465382, lng: -79.9526929},
             icon: parkingIcon,
             map: map
         }
