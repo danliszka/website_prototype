@@ -57,7 +57,7 @@
       <!-- Welcome message --> 
 <!--      <div id="contact-us-top-message">Contact Us</div>-->
       
-      <div class="container-fluid">
+      <div class="container-fluid" style="margin-top: 15px">
         <div class="row">
             
             <div class="col-md contact-types">
@@ -75,7 +75,6 @@
                 <h1 class="message" style="padding-top:40px">University of Pittsburgh</h1>
                 <h3 class="message">AFROTC Detachement 730</h3>
                 <h5 class="message">Are you ready?</h5>
-                
             </div>
             
             <div class="col-md contact-types">
@@ -94,49 +93,91 @@
                 </p>
             </div>
             
-            
-            
-            
-            
         </div>
       </div>
       
-      <br><br><br>
+      <br>
+      
+      
+        <div id="map-wrapper" class="col-md">
+                <div id="map" ></div>
+        </div>
+    
+      
+      <br>
       
       <div class="container-fluid">
           <div class="row">
               
+            <div class="col-md content-box">
+                <h3 class="message2">Interested in learning more?</h3>
+                <h5 class="message2">Send us your information and we'll get back to you!</h5>
+                <br>
+                <form>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstName" class="message2">First</label>
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="John">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastName" class="message2">Last</label>
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Smith">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <label for="inputEmail" class="message2">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Ex: abc123@gmail.com">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <label for="inputEmployment" class="message2">I am currently</label>
+                          <select id="inputEmployment" class="form-control">
+                            <option selected>Choose one...</option>
+                            <option>In High School</option>
+                            <option>In College</option>
+                            <option>Enlisted</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+                        
+                        <div class="form-group col-md-4">
+                            <label for="inputLocation" class="message2">At</label>
+                            <input type="text" class="form-control" id="inputLocation" placeholder="Ex: Pittsburgh High">
+                        </div>
+                        
+                        <div class="form-group col-md-4">
+                            <label for="inputState" class="message2">State</label>
+                            <input type="text" class="form-control" id="inputState" placeholder="Ex: Pennsylvania">
+                        </div>
+                          
+                    </div>
+                    
+                    <br>
+                    <div class="form-group col-md" style="text-align: center">
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                    
+                
+                </form>
+                
+                
+            </div>
+              
+              
             <div class="col-md">
-                <h2 class="message">Find Us On The Map</h2>
+                
             </div>
-
-            <div class="col-md-6">
-                <h2 class="message">Message</h2>
-            </div>
-              
-            <div id="map-wrapper" class="col-md">
-                <div id="map" ></div>
-            </div>
-            
-              
-            
-              
-              
-            
-              
+   
           </div>
       </div>
+
       
-<!--
-      <div id="map-wrapper">
-          <div id="map"></div>
-      </div>
--->
-      
-      
-      
-      
-      
+          
       
       <!-------------------------------------------------  CONTENT END ---------------------------------------------------->
       

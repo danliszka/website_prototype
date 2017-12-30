@@ -186,7 +186,21 @@ body{
     text-align: center;
     vertical-align: middle;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    color: #ceb87b;
+    color: white;
+}
+
+.message2{
+    padding: 5px;
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.content-box{
+    padding: 10px;
+    margin: 15px;
+    background-color: #ceb87b;
+    border-radius: 6px;
 }
 
 .contact-types{
@@ -199,14 +213,18 @@ body{
 }
 
 #map-wrapper{
-    margin: 15px;
-    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 #map{
-    height: 250px;
+    height: 300px;
     width: 100%;
     border-radius: 6px;
+}
+
+.spread{
+    margin-top:15px;
 }
 
 /********************* End Contact Us CSS *****************/
