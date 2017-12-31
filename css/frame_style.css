@@ -118,6 +118,17 @@ body{
     border: 2px solid #ceb87b;
 }
 
+#top-message-content{
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    color: white;
+    background-color: #152350;
+    margin-bottom: 0px;
+    border: 2px solid #ceb87b;
+}
+
 #load-image{
     border: 2px solid #ceb87b;
     width: 100%;
@@ -150,6 +161,17 @@ body{
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     font-size:24px;
     padding: 10px;
+    color:#152350;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.info-basic-message-content{
+    text-align: center;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size:24px;
+    padding: 10px;
+    padding-bottom: 1px;
     color:#152350;
     background-color: white;
     margin-bottom: 0px;
@@ -193,14 +215,14 @@ body{
     padding: 5px;
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    color: white;
+    color: black;
 }
 
 .message3{
     padding: 5px;
     text-align: left;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    color: white;
+    color: #152350;
 }
 
 .content-box{
