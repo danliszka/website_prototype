@@ -179,6 +179,24 @@ body{
 }
 
 /********************* Start Contact Us CSS *****************/
+#contact-us-header{
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    margin: 15px;
+    margin-top: 30px;
+    border-radius: 6px;
+    padding: 5px;
+    color: #152350;
+    background-color: white;
+}
+
+.divider{
+    background-color: white;
+    padding: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
 
 .message{
     margin: 15px;
