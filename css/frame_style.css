@@ -256,8 +256,11 @@ body{
 }
 
 .collage-img{
-    margin:10px;
+    margin: 5px;
+    margin-left:0;
+    margin-right:0;
     width: 100%;
+    border-radius: 6px;
 }
 
 /********************* End Contact Us CSS *****************/
