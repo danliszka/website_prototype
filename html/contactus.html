@@ -149,8 +149,9 @@
             <div class="col-md content-box">
                 <h3 class="message2">Interested in learning more?</h3>
                 <h5 class="message2">Send us your information and we'll get back to you!</h5>
-                <br>
-                <form>
+                <h2 id="thank-you-msg" class="message2" style="margin-top:70px" hidden>Thank you!</h2>
+               
+                <form id="contact-us-form">
                     
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -196,7 +197,7 @@
                     
                     <br>
                     <div class="form-group col-md" style="text-align: center">
-                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <button id="submitButton" class="btn btn-primary" type="button">Submit</button>
                     </div>
                 </form>       
             </div>
@@ -209,6 +210,8 @@
           
       
       <!-------------------------------------------------  CONTENT END ---------------------------------------------------->
+      
+      
       <!-------------------------------------------------  FOOTER START ---------------------------------------------------->
       <br>
       <footer class="container-fluid text-center" style="background-color:white">
@@ -222,6 +225,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/pageDynamics.js"></script>
+      <script src="../js/form.js"></script>
       
       <!-- Google Maps API key: AIzaSyBgiFLXL2ERbiDFpL_J5v9W0VoBa_r0Z-c -->
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgiFLXL2ERbiDFpL_J5v9W0VoBa_r0Z-c&callback=initMap"></script>
