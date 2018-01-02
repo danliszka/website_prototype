@@ -213,6 +213,9 @@ body{
 
 .message3{
     padding: 7px;
+    margin-left:60px;
+    margin-right:60px;
+    border-radius: 6px;
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
     background-color: white;
@@ -250,6 +253,11 @@ body{
 
 .spread{
     margin-top:15px;
+}
+
+.collage-img{
+    margin:10px;
+    width: 100%;
 }
 
 /********************* End Contact Us CSS *****************/
