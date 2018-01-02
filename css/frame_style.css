@@ -182,18 +182,15 @@ body{
 #contact-us-header{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    font-size: 35px;
     margin: 15px;
-    margin-top: 30px;
-    border-radius: 6px;
+    font-size: 30px;
     padding: 5px;
-    color: #152350;
-    background-color: white;
+    color: white;
 }
 
 .divider{
     background-color: white;
-    padding: 4px;
+    padding: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
 } 
@@ -215,10 +212,11 @@ body{
 }
 
 .message3{
-    padding: 5px;
-    text-align: left;
+    padding: 7px;
+    text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    color: white;
+    background-color: white;
+    color: #152350;
 }
 
 .content-box{
@@ -238,6 +236,8 @@ body{
 }
 
 #map-wrapper{
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
 }
