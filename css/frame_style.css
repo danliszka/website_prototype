@@ -242,6 +242,66 @@ body{
     padding-right: 25px;
 }
 
+.shadow-button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.shadow-button:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.24), 0 10px 60px 0 rgba(0,0,0,0.19);
+}
+
+/********************* Start Contact Us CSS *****************/
+#contact-us-header{
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    margin: 15px;
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.divider{
+    background-color: white;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+.message{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.message2{
+    padding: 5px;
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.message3{
+    padding: 7px;
+    margin-left:60px;
+    margin-right:60px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    background-color: white;
+    color: #152350;
+}
+
+.content-box{
+    padding: 10px;
+    margin: 15px;
+    background-color: #ceb87b;
+    border-radius: 6px;
+}
 
 .contact-types{
     padding: 15px;
@@ -252,12 +312,30 @@ body{
     border-radius: 6px;
 }
 
-.shadow-button {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+#map-wrapper{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.shadow-button:hover {
-    opacity: 0.75;
-    filter: alpha(opacity=75); /* For IE8 and earlier */
-    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.24), 0 10px 60px 0 rgba(0,0,0,0.19);
+#map{
+    height: 300px;
+    width: 100%;
+    border-radius: 6px;
 }
+
+.spread{
+    margin-top:15px;
+}
+
+.collage-img{
+    margin: 5px;
+    margin-left:0;
+    margin-right:0;
+    width: 100%;
+    border-radius: 6px;
+}
+
+/********************* End Contact Us CSS *****************/
