@@ -166,3 +166,158 @@ body{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+.contact-types{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #152350;
+    text-align: left;
+    border-radius: 6px;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.contact-types-gold{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ceb87b;
+    text-align: left;
+    border-radius: 6px;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    color: #152350;
+}
+
+.contact-types-gold p{
+    font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  border: 2px solid #152350;
+  color: #152350;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  width: 300px;
+  transition: all 0.2s;
+  cursor: pointer;
+  display:block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.button-r {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #152350;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  /*width: 250px;*/
+  transition: all 0.2s;
+  cursor: pointer;
+  display:block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.button:hover {
+  background-color: #152350;
+  color:white;
+}
+
+.button-r:hover {
+  background-color: #FFFFFF;
+  color:#152350
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+  color:#152350;
+}
+
+.button-r span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+  color:#FFFFFF;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:white;
+}
+
+.button-r span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:#152350;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:white;
+}
+
+.button-r span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:#152350;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color:white;
+}
+
+.button-r:hover span {
+  padding-right: 25px;
+  color:#152350;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  color:white;
+}
+
+.button-r:hover span:after {
+  opacity: 1;
+  right: 0;
+  color:#152350;
+}
