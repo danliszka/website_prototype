@@ -139,3 +139,67 @@ body{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+.contact-types{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background-color: #152350;
+    text-align: left;
+    border-radius: 6px;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  border: 2px solid #152350;
+  color: #152350;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  width: 275px;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin: 0px;
+  margin-top:20px;
+}
+
+.button:hover {
+  background-color: #152350;
+  color:white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+  color:#152350;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:white;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color:white;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  color:white;
+}
