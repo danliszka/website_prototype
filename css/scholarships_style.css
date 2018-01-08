@@ -101,7 +101,7 @@ body{
 /**********Only for main page "Welcome to Det 730"************/
 
 /**********Top message for all sub pages****************/
-/** Under top picture, blue background, white, large words, gold border**/
+/** Under top picture, blue background, white, large words**/
 #top-message{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
@@ -110,19 +110,16 @@ body{
     color: white;
     background-color: #152350;
     margin-bottom: 10px;
-    border: 2px solid #ceb87b;
 }
 
 #load-fixedS-image{
-    border: 2px solid #ceb87b;
     max-width: 100%;
     height: auto;
     margin-bottom: 5px;
 }
 
-/**blue background, white words, gold border, small margins**/
+/**blue background, white words, small margins**/
 .info-message-sm{
-    border: 2px solid #ceb87b;
     text-align: center;
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     font-size:30px;

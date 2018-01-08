@@ -106,18 +106,17 @@ body{
     padding: 20px;
     color: white;
     background-color: #152350;
+    border-bottom: 2px solid #ceb87b;
 }
 
 #load-image{
-    border: 2px solid #ceb87b;
     width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
 
-/**blue background, white words, gold border, large margins on left and right**/
+/**blue background, white words, large margins on left and right**/
 .info-message{
-    border: 2px solid #ceb87b;
     text-align: center;
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     font-size:30px;
@@ -129,9 +128,8 @@ body{
     padding-right: 100px;
 }
 
-/**blue background, gold words, gold border, small margins**/
+/**blue background, gold words, small margins**/
 .info-main{
-    border: 2px solid #ceb87b;
     text-align: left;
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     padding: 10px;
