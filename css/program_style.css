@@ -134,7 +134,7 @@ body{
 .info-basic-message{
     text-align: center;
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
-    font-size:24px;
+    font-size:28px;
     padding: 10px;
     color:#152350;
     background-color: white;
@@ -176,14 +176,15 @@ body{
   border: 2px solid #152350;
   color: #152350;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   padding: 5px;
-  width: 300px;
+  width: 350px;
   transition: all 0.2s;
   cursor: pointer;
   display:block;
   margin: auto;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: -10px;
 }
 
 .button:hover {
