@@ -101,7 +101,7 @@ body{
 #contact-us-header{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
-    margin: 15px;
+    margin: 20px;
     font-size: 30px;
     padding: 5px;
     color: white;
@@ -109,13 +109,13 @@ body{
 
 .divider{
     background-color: white;
-    padding: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 } 
 
 .message{
-    margin: 15px;
+    margin: 20px;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
@@ -132,9 +132,6 @@ body{
 
 .message3{
     padding: 7px;
-    margin-left:60px;
-    margin-right:60px;
-    border-radius: 6px;
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
     background-color: white;
@@ -143,7 +140,7 @@ body{
 
 .content-box{
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
     background-color: #ceb87b;
     border-radius: 6px;
 }
@@ -151,7 +148,7 @@ body{
 .contact-types{
     padding: 15px;
     padding-bottom: 0;
-    margin: 15px;
+    margin: 20px;
     background-color: #ceb87b;
     text-align: center;
     border-radius: 6px;
@@ -159,8 +156,9 @@ body{
 
 
 #map-wrapper{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
@@ -168,11 +166,10 @@ body{
 #map{
     height: 300px;
     width: 100%;
-    border-radius: 6px;
 }
 
 .spread{
-    margin-top:15px;
+    margin-top: 20px;
 }
 
 .collage-img{
