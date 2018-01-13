@@ -25,12 +25,13 @@
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     font-size:30px;
     padding: 10px;
+    padding-bottom: 15px;
     color:white;
     background-color: #152350;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /**white background, blue words, no border, small margins**/
@@ -51,9 +52,9 @@
     padding: 10px;
     color: white;
     background-color: #ceb87b;
-    margin-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 5px;
 }
 
 .shadow-button {
@@ -73,5 +74,67 @@
     background-color: #ceb87b;
     text-align: center;
     border-radius: 6px;
+    color:#152350;
 }
 
+.button-r {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #152350;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  /*width: 250px;*/
+  transition: all 0.2s;
+  cursor: pointer;
+  display:block;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.button-r:hover {
+  background-color: #FFFFFF;
+  color:#152350
+}
+
+.button-r span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+  color:#FFFFFF;
+}
+
+.button-r span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:#152350;
+}
+
+.button-r span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+  color:#152350;
+}
+
+.button-r:hover span {
+  padding-right: 25px;
+  color:#152350;
+}
+
+.button-r:hover span:after {
+  opacity: 1;
+  right: 0;
+  color:#152350;
+}
