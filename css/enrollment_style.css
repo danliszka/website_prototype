@@ -25,10 +25,11 @@
     font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
     font-size:30px;
     padding: 10px;
+    padding-bottom: 2px;
     color:white;
     background-color: #152350;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     padding-left: 25px;
     padding-right: 25px;
 }
