@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openCity1(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -9,7 +9,7 @@ function openCity(evt, cityName) {
     }
 
     // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.getElementsByClassName("tablinks1");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
@@ -20,4 +20,4 @@ function openCity(evt, cityName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+document.getElementById("defaultOpen1").click();
