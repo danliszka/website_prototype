@@ -1,4 +1,4 @@
-function openCity1(evt, cityName) {
+function openInfo1(evt, infoName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -15,7 +15,7 @@ function openCity1(evt, cityName) {
     }
 
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(infoName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 
@@ -23,7 +23,7 @@ function openCity1(evt, cityName) {
 document.getElementById("defaultOpen1").click();
 
 
-function openCity2(evt, cityName) {
+function openInfo2(evt, infoName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -40,9 +40,9 @@ function openCity2(evt, cityName) {
     }
 
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(infoName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+document.getElementById("defaultOpen2").click();

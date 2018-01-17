@@ -112,6 +112,8 @@
     height: 362px;
     margin-bottom: 15px;
     color: black;
+    font-size: 14px;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
 }
 
 /* Style the tab content */
@@ -119,11 +121,14 @@
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
-    width: 75%;
+    width: 70%;
     border-left: none;
     height: 362px;
     margin-bottom: 15px;
     color: black;
+    text-align: left;
+    font-size: 14px;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
 }
 
 
