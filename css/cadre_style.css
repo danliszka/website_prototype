@@ -104,6 +104,7 @@
 
 /* Style the tab content */
 .tabcontent {
+    overflow: scroll;
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
@@ -118,6 +119,7 @@
 
 /* Style the tab content */
 .tabcontent2 {
+    overflow: scroll;
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
