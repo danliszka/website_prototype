@@ -9,7 +9,6 @@
     padding: 15px;
     color: white;
     background-color: #152350;
-    margin-bottom: 10px;
 }
 
 #load-fixedS-image{
@@ -44,12 +43,3 @@
     padding-right: 40px;
 }
 
-.shadow-button {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.shadow-button:hover {
-    opacity: 0.75;
-    filter: alpha(opacity=75); /* For IE8 and earlier */
-    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.24), 0 10px 60px 0 rgba(0,0,0,0.19);
-}
