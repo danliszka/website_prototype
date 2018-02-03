@@ -71,15 +71,6 @@ body{
     line-height: 8px;
 }
 
-.dropdown{
-    display: none;
-    position: relative;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
-}
-
 .nav-buttons-scrolling{
     color: white;
     height: 30px;
