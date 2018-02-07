@@ -17,7 +17,10 @@ function submitForm(){
             var location = document.getElementById('inputLocation').value;
             var state = document.getElementById('inputState').value;
             
-            //check
+            //check if variables have useful information in them
+            //--PAUSING WORK HERE, THE FORM IS NOT THE DIRECTION WE WANT TO GO RIGHT NOW
+            //--IF FUTURE DEVELOPERS CONSIDER USING THIS IN THE FUTURE, THIS FILE IS HERE AND THE FORM HTML WILL BE COMMENTED OUT
+            //--IN CONTACTUS.HTML
             
             //Remove form and place thank you message
             var form = document.getElementById('contact-us-form');
