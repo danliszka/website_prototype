@@ -8,7 +8,16 @@ function submitForm(){
     
     if (bool1 && bool2) //if form is valid, execute sending email
         {
-            //Set up email API and send email
+            //Set up email API and send email -- to be done at a later date
+            //Send using mailto: service for now
+            var firstname = document.getElementById('inputFirstName').value;
+            var lastname = document.getElementById('inputLastName').value;
+            var email = document.getElementById('inputEmail').value;
+            var employment = document.getElementById('inputEmployment').value;
+            var location = document.getElementById('inputLocation').value;
+            var state = document.getElementById('inputState').value;
+            
+            //check
             
             //Remove form and place thank you message
             var form = document.getElementById('contact-us-form');
