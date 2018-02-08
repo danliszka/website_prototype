@@ -32,6 +32,20 @@
     padding-right: 25px;
 }
 
+/**blue background, white words, small margins**/ /*JUST FOR BORDER*/
+.info-message-sm-border{
+    text-align: center;
+    font-family:BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size:30px;
+    padding: 10px;
+    color:white;
+    background-color: #152350;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 /**white background, blue words, no border, small margins**/
 .info-basic-message{
     text-align: center;
@@ -107,13 +121,13 @@
   color: #152350;
   text-align: center;
   font-size: 18px;
-  padding: 5px;
+  padding: 10px;
   width: 300px;
   transition: all 0.2s;
   cursor: pointer;
   display:block;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .button-r {
