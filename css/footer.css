@@ -145,8 +145,8 @@
 
 .footer-distributed .footer-icons a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	width: 25px;
+	height: 25px;
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
@@ -154,7 +154,7 @@
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
-	line-height: 35px;
+	line-height: 25px;
 
 	margin-right: 3px;
 	margin-bottom: 5px;
