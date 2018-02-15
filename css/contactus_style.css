@@ -1,5 +1,15 @@
 
 /********************* Start Contact Us CSS *****************/
+#top-message{
+    text-align: center;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    color: white;
+    background-color: #152350;
+    margin-bottom: 10px;
+}
+
 #contact-us-header{
     text-align: center;
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
