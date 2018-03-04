@@ -64,7 +64,7 @@
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 27%;
+	width: 32%;
 }
 
 .footer-distributed .footer-center i{
@@ -109,7 +109,7 @@
 /* Footer Right */
 
 .footer-distributed .footer-right{
-	width: 20%;
+	width: 15%;
 }
 
 .footer-distributed .footer-company-about{
@@ -124,7 +124,7 @@
 .footer-distributed .footer-company-about-links{
 	line-height: 20px;
 	color:  #ffffff;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 	display: inline-block;
